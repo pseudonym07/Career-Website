@@ -14,25 +14,38 @@ box-sizing: border-box;
   
 }
 
-
-
+html {
+  height: 100%;
+}
 
 
 body{
   background-color: #FBFAF5 ;
+  
+  margin: 0px;
+  
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
 
 }
 
 .head-bar {
   display: flex;
- background-color: #636363;
-
-  margin: 10px;
+  background-color: #636363;
+  
   padding: 10px;
-  margin-left: auto;
+  
 }
 
 
+.logo-column img{
+
+
+
+}
 
 .navi-links a {
   border: solid black 2px;
@@ -71,9 +84,6 @@ body{
 }
 
 
-
-
-
 .align-center{
   text-align: center;
   
@@ -86,6 +96,32 @@ body{
 
 
 .navi-links a:hover{
-  background-color: black;
+  background-color: #7D1616;
   color: white;
 }
+
+
+
+
+
+footer {
+  display: flex;
+  background-color: #636363;
+  
+  padding: 10px;
+  
+  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
