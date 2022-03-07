@@ -41,10 +41,12 @@ body{
 }
 
 
-.logo-column img{
-
-
-
+.img-center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 
 .navi-links a {
@@ -108,7 +110,7 @@ footer {
   display: flex;
   background-color: #636363;
   
-  padding: 10px;
+  padding: 30px;
   
   
 
@@ -119,9 +121,19 @@ footer {
 
 }
 
+.content{
+  flex: 1;
 
 
 
+}
+
+.margin-b-gone p{
+  margin: -0px;
+
+
+
+}
 
 
 
