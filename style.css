@@ -41,12 +41,12 @@ body{
 }
 
 
-.img-center img{
+.resize-img img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  
+  width: 25%;
+  image-rendering: pixelated;
 }
 
 .navi-links a {
@@ -62,7 +62,7 @@ body{
 }
 
 .navi-links {
-  margin-top: 150px;
+  margin-top: 25px;
   font-family: Comfortaa, cursive
 
   
@@ -70,7 +70,6 @@ body{
 
 .wlc-txt-size{
   font-family: Comfortaa, cursive;
-
 
   
 }
@@ -105,19 +104,11 @@ body{
 
 
 
-
 footer {
   display: flex;
   background-color: #636363;
   
   padding: 30px;
-  
-  
-
-
-
-
-
 
 }
 
